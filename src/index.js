@@ -19,7 +19,7 @@ function doRequest(options) {
 module.exports = function(homebridge) {
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
-  homebridge.registerAccessory("homebridge-meross-plug", "Meross", MerossPlug);
+  homebridge.registerAccessory("meross-MSS310", "Meross310", MerossPlug);
 };
 
 class MerossPlug {

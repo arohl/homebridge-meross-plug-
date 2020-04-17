@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-meross-plug",
+  "name": "meross-MSS310",
   "version": "0.0.1",
   "description": "Homebridge plugin for the meross MSS310 plug",
   "main": "src/index.js",
