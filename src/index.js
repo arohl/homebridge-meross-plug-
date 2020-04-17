@@ -52,7 +52,7 @@ class MerossPlug {
     /* Create a new information service. This just tells HomeKit about our accessory. */
     const informationService = new Service.AccessoryInformation()
       .setCharacteristic(Characteristic.Manufacturer, "meross")
-      .setCharacteristic(Characteristic.Model, "MSS110")
+      .setCharacteristic(Characteristic.Model, "MSS310")
       .setCharacteristic(Characteristic.SerialNumber, "lol");
 
     /*
